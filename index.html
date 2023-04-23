@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+        <link rel="stylesheet" href="assets/style.css">
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-
-        <title>Chirag Chaudhary</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"/>
         <style>
             /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
@@ -147,8 +145,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
-    transition: .2s;
-    /* transition: .5s; */
+    transition: .5s;
   }
 }
 
@@ -209,7 +206,6 @@ img {
 }
 
 .home__data {
-    margin-top: 5rem;
   align-self: center;
 }
 
@@ -291,6 +287,8 @@ img {
 .skills__container {
   row-gap: 2rem;
   text-align: center;
+  display: flex;
+
 }
 
 .skills__subtitle {
@@ -310,7 +308,7 @@ img {
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  /* box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); */
 }
 
 .skills__icon {
@@ -324,55 +322,11 @@ img {
   align-items: center;
 }
 
-.skills__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: .25rem;
-  border-radius: .5rem;
-  z-index: var(--z-back);
-}
-
-.skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
-.skills__js {
-  width: 65%;
-}
-
-.skills__ux {
-  width: 85%;
-}
 
 .skills__img {
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
-.work__container {
-  row-gap: 2rem;
-}
-
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-
-.work__img img {
-  /* transition: 1s; */
-  transition: .3s;
-}
-
-.work__img img:hover {
-  transform: scale(1.1);
-}
 
 /* ===== CONTACT =====*/
 .section_10 * {
@@ -623,7 +577,6 @@ img {
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
-
 *,
 *:before,
 *:after {
@@ -631,39 +584,30 @@ img {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 .wk-desk-1 {
   width: 8.333333%;
 }
-
 .wk-desk-2 {
   width: 16.666667%;
 }
-
 .wk-desk-3 {
   width: 25%;
 }
-
 .wk-desk-4 {
   width: 33.333333%;
 }
-
 .wk-desk-5 {
   width: 41.666667%;
 }
-
 .wk-desk-6 {
   width: 50%;
 }
-
 .wk-desk-7 {
   width: 58.333333%;
 }
-
 .wk-desk-8 {
   width: 66.666667%;
 }
@@ -688,47 +632,36 @@ body {
   .wk-ipadp-1 {
     width: 8.333333%;
   }
-
   .wk-ipadp-2 {
     width: 16.666667%;
   }
-
   .wk-ipadp-3 {
     width: 25%;
   }
-
   .wk-ipadp-4 {
     width: 33.333333%;
   }
-
   .wk-ipadp-5 {
     width: 41.666667%;
   }
-
   .wk-ipadp-6 {
     width: 50%;
   }
-
   .wk-ipadp-7 {
     width: 58.333333%;
   }
-
   .wk-ipadp-8 {
     width: 66.666667%;
   }
-
   .wk-ipadp-9 {
     width: 75%;
   }
-
   .wk-ipadp-10 {
     width: 83.333333%;
   }
-
   .wk-ipadp-11 {
     width: 91.666667%;
   }
-
   .wk-ipadp-12 {
     width: 100%;
   }
@@ -742,43 +675,33 @@ body {
   .wk-tab-2 {
     width: 16.666667%;
   }
-
   .wk-tab-3 {
     width: 25%;
   }
-
   .wk-tab-4 {
     width: 33.333333%;
   }
-
   .wk-tab-5 {
     width: 41.666667%;
   }
-
   .wk-tab-6 {
     width: 50%;
   }
-
   .wk-tab-7 {
     width: 58.333333%;
   }
-
   .wk-tab-8 {
     width: 66.666667%;
   }
-
   .wk-tab-9 {
     width: 75%;
   }
-
   .wk-tab-10 {
     width: 83.333333%;
   }
-
   .wk-tab-11 {
     width: 91.666667%;
   }
-
   .wk-tab-12 {
     width: 100%;
   }
@@ -788,47 +711,36 @@ body {
   .wk-mobile-1 {
     width: 8.333333%;
   }
-
   .wk-mobile-2 {
     width: 16.666667%;
   }
-
   .wk-mobile-3 {
     width: 25%;
   }
-
   .wk-mobile-4 {
     width: 33.333333%;
   }
-
   .wk-mobile-5 {
     width: 41.666667%;
   }
-
   .wk-mobile-6 {
     width: 50%;
   }
-
   .wk-mobile-7 {
     width: 58.333333%;
   }
-
   .wk-mobile-8 {
     width: 66.666667%;
   }
-
   .wk-mobile-9 {
     width: 75%;
   }
-
   .wk-mobile-10 {
     width: 83.333333%;
   }
-
   .wk-mobile-11 {
     width: 91.666667%;
   }
-
   .wk-mobile-12 {
     width: 100%;
   }
@@ -911,6 +823,7 @@ body {
   .contact__container {
     justify-items: center;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -968,6 +881,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -982,8 +896,86 @@ body {
     width: 450px;
   }
 }
+@media screen and (max-width: 350px){
+.wrap-circles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 990px) {
+.half{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.shalf{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+}
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: var(--body-font);
+  font-size: 16px;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+  display: flex;
+  min-height: 10rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: #ffffff;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+.circle.per-25 {
+  background-image: conic-gradient(var(--first-color) 95%, #f8f4f4 0);
+}
+.circle.per-50 {
+  background-image: conic-gradient(var(--first-color) 85%, #f1e9e9 0);
+}
+.circle.per-75 {
+  background-image: conic-gradient(var(--first-color) 80%, #eee3e3 0);
+}
+.circle.per-100 {
+  background-image: conic-gradient(var(--first-color) 55%, #ebe2e2 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
         </style>
+        <title>Chirag Chaudhary</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -1045,7 +1037,6 @@ body {
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Chirag</h2>
                         <p class="about__text">Hi there! My name is Chirag and I am a freelancer web developer and UX/UI designer with a passion for creating engaging and functional websites and user interfaces. With a strong background in HTML, CSS, JavaScript, and several design software, I am dedicated to delivering high-quality work that meets the needs of my clients.</p>           
                     </div>                                   
                 </div>
@@ -1054,21 +1045,23 @@ body {
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
-
+          
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">Proficient in HTML5, CSS, and JavaScript, with a strong understanding of web development best practices.Familiarity with version control systems like Git and GitHub.</p>
+                        <div class="wrap-circles">
+                        <div class="half">
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
                                 <span class="skills__name">HTML5</span>
                             </div>
                             <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
+          
+                            </div> 
+                            <div class="circle per-25">
+                                <span class="inner">95%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -1079,10 +1072,12 @@ body {
                             <div class="skills__bar skills__css">
                                 
                             </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
+                            <div class="circle per-50">
+                                <span class="inner">80%</span>
                             </div>
                         </div>
+                    </div>
+                    <div class="shalf">
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-javascript skills__icon' ></i>
@@ -1091,8 +1086,8 @@ body {
                             <div class="skills__bar skills__js">
                                 
                             </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
+                            <div class="circle per-75">
+                                <span class="inner">85%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -1103,17 +1098,19 @@ body {
                             <div class="skills__bar skills__ux">
                                 
                             </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
+                            <div class="circle per-100">
+                                <span class="inner">55%</span>
                             </div>
                         </div>
+                    </div>
+                      </div>
                     </div>
                     
                 </div>
             </section>
 
             <!--===== CONTACT =====-->
-            <div class="section_10">
+            <div class="section_10" id="Contact">
                 <div class="responsive-container-block container">
                   <form id="iox4" action="https://formspree.io/f/mbjeqaaw" method="POST">
                     <div class="responsive-container-block form-container">
