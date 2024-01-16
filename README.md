@@ -29,7 +29,7 @@ To use this codebase, you can follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/chirag-portfolio.git
+    git clone https://github.com/chirag640/chirag-portfolio.git
     ```
 
 2. Open the `index.html` file in your web browser to view the portfolio locally.
